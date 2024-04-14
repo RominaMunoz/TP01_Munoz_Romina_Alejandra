@@ -10,7 +10,7 @@ public void setup(){
 
   do{
     linea();
-    y += 100;
+    y += height/6;
   } while(y <= height);
   
   do{
@@ -19,7 +19,7 @@ public void setup(){
       circulo();
       x2 += dist*2;
     } while(x2 <= width);
-    y2 += 200;
+    y2 += height/3;
   } while(y2 <= height);
 }
 
